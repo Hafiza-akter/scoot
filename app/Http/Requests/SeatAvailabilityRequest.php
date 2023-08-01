@@ -29,7 +29,7 @@ class SeatAvailabilityRequest extends FormRequest
     {
         return [
             'gds_code' => 'nullable|numeric',
-            'ndc_params.owner' => 'required|string',
+            'ndc_params.fff' => 'required|string',
             'ndc_params.order_id' => 'required_without:ndc_params.responses_id|string',
             'ndc_params.offer_id' => 'required_without:ndc_params.order_id|string',
             'ndc_params.responses_id' => 'required_without:ndc_params.order_id|exclude_with:ndc_params.order_id|string',
