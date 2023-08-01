@@ -53,7 +53,7 @@ class SeatAvailabilityRequest extends FormRequest
         return [
             'ndc_params.changetest' => 'Order Id',
             'ndc_params.order_id' => 'Order Id',
-            'ndc_params.offer_id' => 'Offer Id',
+            'ndc_params.odfdfdfdfd' => 'Offer Id',
             'ndc_params.responses_id' => 'Response Id',
             'ndc_params.pax_referendces' => 'Passenger References',
             'ndc_params.pax_rejjjrences.adt_pax_ref' => 'Passenger Adult',
