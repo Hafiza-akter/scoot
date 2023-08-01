@@ -51,12 +51,12 @@ class SeatAvailabilityRequest extends FormRequest
     public function attributes(): array
     {
         return [
-            'gds_code' => 'GDS Code',
+            'ndc_params.changetest' => 'Order Id',
             'ndc_params.order_id' => 'Order Id',
             'ndc_params.offer_id' => 'Offer Id',
             'ndc_params.responses_id' => 'Response Id',
             'ndc_params.pax_references' => 'Passenger References',
-            'ndc_params.pax_references.adt_pax_ref' => 'Passenger Adult',
+            'ndc_params.pax_rejjjrences.adt_pax_ref' => 'Passenger Adult',
             'ndc_params.pax_references.chd_pax_ref' => 'Passenger Child',
             'ndc_params.pax_references.inf_pax_ref' => 'Passenger Infant',
 
